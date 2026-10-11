@@ -1,0 +1,32 @@
+FANOUS END-USER LICENCE  (TEMPLATE - draft for Amrit Rosell to approve; not legal advice)
+
+Fanous (c) 2026 Amrit Rosell. All rights reserved.
+
+1. Licence. You may install and use Fanous on any computers you own or control, for
+   any purpose, including paid live performances, broadcasts, installations and
+   recorded or streamed work. Video, images and recordings you make with Fanous are
+   yours; no credit is required.
+
+2. Restrictions. You may not:
+   a. redistribute, sell, rent, lend, sublicense or share the Fanous plugin file or
+      its download archive, in whole or in part, except as a backup for yourself;
+   b. reverse engineer, decompile or disassemble Fanous, except to the extent the
+      law where you live expressly permits it despite this restriction;
+   c. modify Fanous or remove or change its copyright or licence notices.
+
+3. Ownership. Fanous is licensed, not sold. The author keeps all rights not
+   expressly granted here.
+
+4. Third-party software. Fanous contains open-source components under their own
+   licences; see THIRD-PARTY-NOTICES.txt. Nothing in this licence limits your rights
+   under those licences.
+
+5. No warranty. Fanous is provided "as is", without warranty of any kind, express or
+   implied, including fitness for a particular purpose. Test it before you rely on it
+   in a show.
+
+6. Limitation of liability. To the extent the law allows, the author is not liable
+   for any damages arising from the use of, or inability to use, Fanous.
+
+7. Termination. This licence ends automatically if you break it; you must then
+   delete every copy of Fanous.
