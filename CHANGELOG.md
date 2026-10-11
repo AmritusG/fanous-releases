@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 — 2026-10-11
+
+- **New: Fanous FX**, an effect version of Fanous that uses the clip it sits on (group **Input**): the clip as the
+  lantern's stained glass (Window / Mosaic / Per Face) and so in the light it throws; as the light's own picture
+  (Sphere / Cube / Front); on the room's surfaces; as the pattern that pierces the plates (Pattern ▸ Input); coloured
+  into the smoke; and as the background. Each has its own amount, so they combine.
+- A playing clip never rebuilds the lantern's light, except with Pattern ▸ Input, which follows the clip by design.
+- Smoother Hankin star patterns while you turn **Truncate** on symmetric solids such as the Cube.
+- Your saved Fanous clips are unchanged: every existing parameter keeps its name, range and default.
+
 ## 1.0.0 — 2026-10-11
 
 First release.

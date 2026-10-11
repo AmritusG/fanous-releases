@@ -1,7 +1,7 @@
 # Fanous — Releases
 
 A pierced lantern with a light inside that throws its pattern onto the room. An FFGL source plugin for
-Resolume Arena and Avenue on macOS.
+Resolume Arena and Avenue on macOS, and since 1.1.0 **Fanous FX**, the same lantern as an effect that uses your clip.
 
 This repository hosts the releases of Fanous. The source code is private.
 Bug reports and feature requests are welcome in the [Issues tab](../../issues).
@@ -33,6 +33,27 @@ Latest release: **[Releases page](../../releases/latest)**. Earlier versions are
 | ![Hammam Dome](screenshots/02-hammam-dome.jpg) | ![Two Lights](screenshots/03-two-lights.jpg) |
 | ![Inside Looking Out](screenshots/04-inside-looking-out.jpg) | ![Arabesque Vine](screenshots/05-arabesque-vine.jpg) |
 
+## Fanous FX: your clip in the lantern (1.1.0)
+
+**Fanous FX** is an effect: put it on a video clip and the lantern uses that clip. Each use has its own amount
+in the **Input** group, so you can combine them:
+
+- **Glass From Clip:** the coloured glass in the holes takes its colour from the clip, so the light the lantern
+  throws carries the video onto the room. *Window* projects the clip through the lantern, *Mosaic* gives each glass
+  cell one colour, *Per Face* puts the whole clip on every face.
+- **Light Picture:** the light itself carries the clip, like a small projector inside the lantern. Even the open
+  holes throw the video.
+- **Room From Clip:** the clip on the walls, floor and ceiling, lit and shadowed by the lantern.
+- **Pattern ▸ Input:** the clip's brightness cuts the holes. The lantern is pierced by the video and throws it as
+  shadow. (This one re-cuts the lantern every frame, so it costs more GPU than the others.)
+- **Smoke From Clip:** the clip coloured into the haze and smoke.
+- **Clip Background:** the clip stays visible behind the scene (try **Room Mode ▸ Light Only**).
+
+| | |
+|---|---|
+| ![Stained glass from the clip](screenshots/06-fx-stained-glass-window.jpg) | ![The clip on the room](screenshots/07-fx-clip-room.jpg) |
+| ![Pierced by the video](screenshots/08-fx-video-pierced.jpg) | ![A projector through the lantern](screenshots/09-fx-clip-through-pattern.jpg) |
+
 ## Requirements
 
 - macOS 11 (Big Sur) or later, Apple Silicon or Intel (universal plugin)
@@ -43,14 +64,15 @@ Latest release: **[Releases page](../../releases/latest)**. Earlier versions are
 
 1. Download `Fanous-<version>-macOS.zip` from the [latest release](../../releases/latest) and double-click it.
 2. Quit Resolume.
-3. Copy `Fanous.bundle` into the **Extra Effects** folder:
+3. Copy `Fanous.bundle` and `FanousFX.bundle` into the **Extra Effects** folder:
    - Arena: `~/Documents/Resolume Arena/Extra Effects/`
    - Avenue: `~/Documents/Resolume Avenue/Extra Effects/`
 
    In Finder: **Go ▸ Home**, then **Documents ▸ Resolume Arena ▸ Extra Effects**.
-4. Start Resolume. Find **Fanous** under **Sources** and drag it onto a clip slot.
+4. Start Resolume. Find **Fanous** under **Sources** and drag it onto a clip slot. Find **Fanous FX** under
+   **Effects** and drag it onto a video clip.
 
-**Updating:** quit Resolume, then replace the old `Fanous.bundle` with the new one. A plugin that Resolume has
+**Updating:** quit Resolume, then replace the old bundles with the new ones. A plugin that Resolume has
 already loaded stays in memory until Resolume restarts.
 
 ## Where your work is saved
