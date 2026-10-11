@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1 — 2026-10-11
+
+- Fanous FX: no hitch the first time a clip use is switched on (every shader it needs is prepared when the effect loads).
+- Fanous FX, Pattern ▸ Input: the smoke, the lightning that crawls over the lantern and the fireflies now follow the
+  video's holes. Before, they saw a stand-in pattern: smoke left a lantern even where the clip made it solid.
+- The release zip is checked to hold both builds, Fanous and Fanous FX.
+- Your saved clips are unchanged: no parameter was added, renamed or changed.
+
 ## 1.1.0 — 2026-10-11
 
 - **New: Fanous FX**, an effect version of Fanous that uses the clip it sits on (group **Input**): the clip as the
