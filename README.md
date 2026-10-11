@@ -3,7 +3,7 @@
 A pierced lantern with a light inside that throws its pattern onto the room. An FFGL source plugin for
 Resolume Arena and Avenue on macOS.
 
-This repository hosts the signed, notarized releases of Fanous. The source code is private.
+This repository hosts the releases of Fanous. The source code is private.
 Bug reports and feature requests are welcome in the [Issues tab](../../issues).
 
 ![Mashrabiya Sun](screenshots/01-mashrabiya-sun.jpg)
@@ -49,8 +49,6 @@ Latest release: **[Releases page](../../releases/latest)**. Earlier versions are
 
    In Finder: **Go ▸ Home**, then **Documents ▸ Resolume Arena ▸ Extra Effects**.
 4. Start Resolume. Find **Fanous** under **Sources** and drag it onto a clip slot.
-
-Fanous is signed and notarized by Apple, so macOS loads it without a security prompt.
 
 **Updating:** quit Resolume, then replace the old `Fanous.bundle` with the new one. A plugin that Resolume has
 already loaded stays in memory until Resolume restarts.

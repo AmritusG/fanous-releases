@@ -11,4 +11,4 @@ First release.
 - A camera that can stand inside the lantern; a room in plaster, concrete, zellige or wood; Light Only mode for
   layering.
 - Motion, beat and audio reactivity, camera poses and cuts, smoke, fire, lightning, fireflies, bloom.
-- Universal (Apple Silicon + Intel), macOS 11 or later, Resolume Arena / Avenue 7 or later. Signed and notarized.
+- Universal (Apple Silicon + Intel), macOS 11 or later, Resolume Arena / Avenue 7 or later.
