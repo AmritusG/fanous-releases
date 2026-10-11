@@ -1,32 +1,50 @@
-FANOUS END-USER LICENCE  (TEMPLATE - draft for Amrit Rosell to approve; not legal advice)
+FANOUS END-USER LICENCE
 
-Fanous (c) 2026 Amrit Rosell. All rights reserved.
+Copyright (c) 2026 Amrit Rosell. All rights reserved.
 
-1. Licence. You may install and use Fanous on any computers you own or control, for
-   any purpose, including paid live performances, broadcasts, installations and
-   recorded or streamed work. Video, images and recordings you make with Fanous are
-   yours; no credit is required.
+This licence is an agreement between you (the person or organisation installing the
+software) and Amrit Rosell (the author). It covers Fanous and Fanous FX, plugins for
+Resolume in the FFGL format, together with their documentation (the "Software").
+By installing or using the Software you accept these terms. They apply in the same
+way whether you bought the Software or downloaded it free of charge.
 
-2. Restrictions. You may not:
-   a. redistribute, sell, rent, lend, sublicense or share the Fanous plugin file or
-      its download archive, in whole or in part, except as a backup for yourself;
-   b. reverse engineer, decompile or disassemble Fanous, except to the extent the
-      law where you live expressly permits it despite this restriction;
-   c. modify Fanous or remove or change its copyright or licence notices.
+1. Licence. The author grants you a personal, non-exclusive, non-transferable
+   licence to install and use the Software on computers you own or control. You may
+   use it for any purpose, including paid live performances, broadcasts,
+   installations and recorded or streamed work.
 
-3. Ownership. Fanous is licensed, not sold. The author keeps all rights not
-   expressly granted here.
+2. Your work. Everything you create with the Software, such as visuals, videos and
+   recordings, belongs to you. You do not need to credit the Software or the author.
 
-4. Third-party software. Fanous contains open-source components under their own
-   licences; see THIRD-PARTY-NOTICES.txt. Nothing in this licence limits your rights
-   under those licences.
+3. Restrictions. You may not:
+   a. redistribute, sell, rent, lend, sublicense or otherwise share the plugin files
+      or the download archive, in whole or in part, except for backup copies you
+      keep for yourself;
+   b. reverse engineer, decompile, disassemble or modify the Software, except to the
+      extent that applicable law expressly permits it despite this restriction;
+   c. remove or alter any copyright, licence or other notice in the Software.
 
-5. No warranty. Fanous is provided "as is", without warranty of any kind, express or
-   implied, including fitness for a particular purpose. Test it before you rely on it
-   in a show.
+4. Ownership. The Software is licensed, not sold. The author remains the owner of
+   the Software and keeps all rights not expressly granted in this licence.
 
-6. Limitation of liability. To the extent the law allows, the author is not liable
-   for any damages arising from the use of, or inability to use, Fanous.
+5. Third-party components. The Software includes open-source components that are
+   licensed under their own terms, reproduced in THIRD-PARTY-NOTICES.txt. For those
+   components, their own licences take precedence over this licence.
 
-7. Termination. This licence ends automatically if you break it; you must then
-   delete every copy of Fanous.
+6. No warranty. The Software is provided "as is", without warranty of any kind,
+   express or implied, including any warranty of merchantability, fitness for a
+   particular purpose or non-infringement. Test it before you rely on it in a show.
+
+7. Limitation of liability. To the fullest extent permitted by law, the author is
+   not liable for any direct, indirect, incidental or consequential damages, or for
+   any loss of data, income or business, arising from the use of or the inability
+   to use the Software. Nothing in this licence limits liability that cannot be
+   limited under applicable law.
+
+8. Termination. This licence ends automatically if you breach any of its terms. When
+   it ends, you must stop using the Software and delete all copies of it.
+
+9. Governing law. This licence is governed by the laws of Sweden.
+
+10. Contact. Questions about this licence can be raised as an issue on the
+    fanous-releases repository: https://github.com/AmritusG/fanous-releases/issues
